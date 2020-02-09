@@ -8,7 +8,11 @@ i {
 .back {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/banner/banner_2.png");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#collapsibleNavbar li {
+  padding: 10px;
 }
 .navbar-light .navbar-nav .nav-link {
   color: white;
@@ -32,6 +36,12 @@ a:hover {
 h1 {
   font-weight: 400;
 }
+h3 {
+  font-weight: 400;
+}
+h6 {
+  color: black;
+}
 .services {
   padding-top: 30px;
 }
@@ -46,5 +56,36 @@ h1 {
 .image {
   margin-top: auto;
   margin-bottom: auto;
-  border-radius: 20px;
+  border-radius: 26px;
+}
+.statistics {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/about/counter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 310px;
+  margin-bottom: 70px;
+}
+.stats {
+  padding: 100px 100px 10px 70px;
+  color: white;
+}
+.icon {
+  color: rgb(45, 173, 216);
+  size: 10%;
+}
+.cards {
+  color: white;
+  width: 200px;
+}
+.deck {
+  padding-top: 100px;
+}
+.case {
+  width: 300px;
+  padding: 25px;
+}
+.extra-btn {
+  border: solid 1px rgb(84, 172, 201);
+  color: rgb(84, 172, 201);
 }
