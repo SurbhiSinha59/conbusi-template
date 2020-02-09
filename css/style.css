@@ -17,7 +17,6 @@ i {
 
 a:hover {
   border-bottom: solid 2px deepskyblue;
-  color: white;
 }
 .round {
   border-radius: 50px;
@@ -27,9 +26,25 @@ a:hover {
   background: transparent;
   padding: 90px 580px 20px 200px;
   color: white;
-  padding-bottom: 167px;
+  padding-bottom: 165px;
   font-weight: 500;
 }
 h1 {
   font-weight: 400;
+}
+.services {
+  padding-top: 30px;
+}
+.consulting {
+  background: transparent;
+}
+.content {
+  margin-left: 13%;
+  margin-right: 6%;
+  margin-top: 70px;
+}
+.image {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 20px;
 }
