@@ -116,3 +116,14 @@ h6 {
 .pic {
   width: 600px;
 }
+.contact {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("../img/banner/info_banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.con-banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
