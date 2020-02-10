@@ -26,6 +26,7 @@ a:hover {
   border-radius: 50px;
   padding: 10px 30px;
 }
+
 .banner {
   background: transparent;
   padding: 90px 580px 20px 200px;
@@ -88,4 +89,30 @@ h6 {
 .extra-btn {
   border: solid 1px rgb(84, 172, 201);
   color: rgb(84, 172, 201);
+}
+.quote {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/banner/testmonial.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-bottom: 125px;
+}
+.quotes-content {
+  padding: 100px 400px 100px 400px;
+}
+.quote-free {
+  margin-bottom: 100px;
+}
+.form-content {
+  margin-left: 190px;
+}
+.get-free {
+  margin-bottom: 100px;
+}
+.get-free-quote {
+  margin-bottom: 50px;
+}
+.pic {
+  width: 600px;
 }
